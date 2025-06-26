@@ -1,8 +1,8 @@
-import VoteOptions from "./VoteOptions/VoteOptions";
-import VoteStats from "./VoteStats/VoteStats";
-import Notification from "./Notification/Notification";
-import CafeInfo from "./CafeInfo/CafeInfo";
-import type { Votes, VoteType } from "../types/votes";
+import VoteOptions from "./components/VoteOptions/VoteOptions";
+import VoteStats from "./components/VoteStats/VoteStats";
+import Notification from "./components/Notification/Notification";
+import CafeInfo from "./components/CafeInfo/CafeInfo";
+import type { Votes, VoteType } from "./types/votes";
 import "./App.css";
 import { useState } from "react";
 
